@@ -1,0 +1,53 @@
+1. What categories of products does Northwind Traders sell?
+Beverages, condiments, confections, dairy products, grains/cereals, meat/poultry, produce, and seafood.
+
+2. What is the name of a product that sounds interesting to you?
+#41 Jack's New England Clam Chowder
+
+3. What are some of the countries in which we have customers?
+UK, France, Sweden, Belgium, Canada, Brazil, Finland, Denmark, Austria, Argentina, Norway, USA, Spain, Italy
+
+4. What date was our first order placed? How did you determine that?
+July 4th, 1996. It is the earliest date recorded under the orders table.
+
+5. What date was our last order placed?
+May 6th, 1998
+
+6. How many customers do we currently have?
+93
+
+7. Do we have any suppliers in South America? Europe? Africa?
+1 suppliers in South America, 16 suppliers in Europe, and 0 suppliers in Africa
+
+
+8. What is our most expensive product?
+#38 Cte de Blaye - 263.5000
+
+
+9. What is our least expensive product?
+#33 Geitost - 2.5000
+
+10. We have a customer named "The Big Cheese" if I wanted to get details
+about their last order from us how would you find that information?
+Customer table
+
+a. What tables would you use?
+Orders table, orderdetails table, and products table
+
+b. How would you link the data in the tables you are using
+Customer ID, order ID, and product ID
+
+c. What information might I want to know about their order?
+What they purchased and how much of it.
+
+i. Order Date?
+April 1st, 1998
+
+ii. Sales Total?
+69.6
+
+iii. Product Name?
+#72 Mozzarella di Giovanni
+
+iv. Is there other information that you might find interesting?
+Need the count to determine the sale total
