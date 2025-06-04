@@ -10,5 +10,5 @@ WHERE
 	FROM
 		products
 	WHERE
-		ProductID = "Sasquatch Ale"
+		ProductName = "Sasquatch Ale"
 	);

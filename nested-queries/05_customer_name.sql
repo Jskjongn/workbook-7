@@ -1,5 +1,5 @@
 SELECT
-	CompanyName
+	ContactName AS 'Customer Name'
 FROM
 	customers
 WHERE
