@@ -1,9 +1,9 @@
 SELECT
 	SupplierID
-    , COUNT(ProductID) as 'Supply Count'
+    , COUNT(ProductID) as SupplyCount
 FROM
 	products
-WHERE
-	ProductID >= 5
 GROUP BY
 	SupplierID
+HAVING
+	SupplyCount >= 5
