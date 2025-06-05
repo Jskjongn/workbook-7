@@ -1,5 +1,6 @@
 SELECT
-	P.ProductName
+	P.ProductID
+	, P.ProductName
     , S.CompanyName
 FROM
 	products P

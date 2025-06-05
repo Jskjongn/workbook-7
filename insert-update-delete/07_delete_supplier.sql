@@ -1,4 +1,4 @@
 DELETE FROM
 	suppliers
 WHERE
-	SupplierID = 30;
+	SupplierID = 31;
