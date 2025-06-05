@@ -8,7 +8,9 @@ WHERE
 	P.UnitPrice = 
     (
     SELECT
-		MAX(P.UnitPrice)
+		MAX(UnitPrice)
 	FROM
-		products
+		products 
+	WHERE
+		CategoryID = P.CategoryID
 	);
